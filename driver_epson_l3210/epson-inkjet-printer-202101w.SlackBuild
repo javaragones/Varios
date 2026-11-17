@@ -23,11 +23,12 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Update by: Javier <javaragones@gmail.com>
+# 17/11/2026
 
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=epson-inkjet-printer-202101w
-VERSION=${VERSION:-1.0.2}
+VERSION=${VERSION:-1.0.3}
 TARNAM=$PRGNAM-$VERSION-1.x86_64.tgz
 BUILD=${BUILD:-1}
 TAG=${TAG:-_jda}
